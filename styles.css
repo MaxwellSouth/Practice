@@ -5,7 +5,10 @@ body
 {
     background-color: rgb(24, 155, 204);
 }
-
+.centered
+{
+    justify-content: center;
+}
 .Headline
 {
     display: flex;
