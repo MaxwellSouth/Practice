@@ -6,20 +6,21 @@ body
     background-color: rgb(24, 155, 204);
 }
 
-#Headline
+.Headline
 {
     color: rgb(0, 0, 0);
-    text-align:center;
-    font-family: "Source Sans Pro", sans-serif;
+    align-items:center;
     font-weight: bold;
-    text-decoration-line: underline;
+    
 }
 
 
 .Content
 {
     color: rgb(200, 0, 0); 
-    text-align:center;
+    align-items: center;
+    justify-content: space-evenly;
+
 }
 
 #Self
@@ -30,10 +31,19 @@ body
     margin-right: auto;
     display: block;
 }
-p 
+
+#SignUp
+{
+    align-content: center;
+}
+
+
+.infotext
 {
     color: rgb(0, 0, 0);  
-    text-align:center;
+    align-items: center;
+    justify-content: space-evenly;
+    
 }
 p1
 
