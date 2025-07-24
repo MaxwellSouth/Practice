@@ -26,12 +26,23 @@ body
 
 .Content > div  
 {
-    background-color: aliceblue;
     width: 100px;
     text-align: center;
     font-size: 14px;
 }
 
+.Footer
+{
+    background-color: aliceblue;
+    align-items: center;
+    align-items: end;
+    flex-direction: row;
+}
+
+.Footer > div 
+{
+    align-content: center;
+}
 #Self
 {
     height: 20%;
