@@ -23,6 +23,13 @@ body
 
 }
 
+.Content > div  
+{
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 14px;
+}
+
 #Self
 {
     height: 20%;
@@ -43,7 +50,7 @@ body
     color: rgb(0, 0, 0);  
     align-items: center;
     justify-content: space-evenly;
-    
+
 }
 p1
 
