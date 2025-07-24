@@ -8,78 +8,43 @@ body
 
 .Headline
 {
-    color: rgb(0, 0, 0);
-    align-items:center;
-    font-weight: bold;
-    
+    display: flex;
+    align-items: stretch;
+    background-color: aliceblue;
 }
 
-.Layout
+.Headline > div 
 {
-    align-items: cneter;
+    color: black;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.Main
+{
+    display: flex;
+    justify-content: space-between;
     flex-direction: row;
-
 }
 
-.Layout > div 
+.Main > div
 {
-    text-align: center;
-}
-
-.Content
-{
-    background-color: rgb(24, 155, 204);
-    color: rgb(200, 0, 0); 
-    align-items: center;
-    flex-direction: column;
-
-}
-
-.Content > div  
-{
-    width: 100px;
-    text-align: center;
-    font-size: 14px;
+    color:black;
+    margin: 10px;
+    font-size 14px;
 }
 
 .Footer
 {
-    background-color: aliceblue;
-    align-items: center;
-    align-items: end;
+    display: flex;
+    justify-content: space-around;
     flex-direction: row;
 }
 
 .Footer > div 
 {
-    align-content: center;
-}
-#Self
-{
-    height: 20%;
-    width:  20%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
-#SignUp
-{
-    align-content: center;
-}
-
-
-.infotext
-{
-    color: rgb(0, 0, 0);  
-    align-items: center;
-    justify-content: space-evenly;
-
-}
-p1
-
-
-a 
-{
-    text-align:center;
+    color:black;
+    margin: 5px;
+    font-size: smaller;
 }
