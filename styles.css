@@ -27,7 +27,7 @@ body
 {
     background-color:blueviolet;
     display: flex;
-    height: 1000;
+    height: 1000px;
     justify-content: space-between;
     flex-direction: row;
     align-items: stretch;
