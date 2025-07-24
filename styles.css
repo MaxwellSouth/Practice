@@ -36,7 +36,8 @@ body
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    align-items: stretch;
+    height: auto;
+    width: fit-content;
 }
 
 .Main > div
