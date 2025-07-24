@@ -19,7 +19,7 @@ body
 {
     color: rgb(200, 0, 0); 
     align-items: center;
-    justify-content: space-evenly;
+    flex-direction: column;
 
 }
 
