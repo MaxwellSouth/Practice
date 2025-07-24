@@ -11,6 +11,7 @@ body
     display: flex;
     align-items: stretch;
     background-color: aliceblue;
+    justify-content: space-around;
 }
 
 .Headline > div 
@@ -26,6 +27,7 @@ body
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    align-items: stretch;
 }
 
 .Main > div
