@@ -26,6 +26,7 @@ body
 .Content > div  
 {
     background-color: aliceblue;
+    width: 100px;
     text-align: center;
     font-size: 14px;
 }
