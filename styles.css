@@ -17,6 +17,7 @@ body
 .Headline > div 
 {
     color: black;
+    background-color: aquamarine;
     margin: 10px;
     text-align: center;
     font-size: 30px;
@@ -24,6 +25,7 @@ body
 
 .Main
 {
+    background-color:blueviolet;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -32,6 +34,7 @@ body
 
 .Main > div
 {
+    background-color: blue;
     color:black;
     margin: 10px;
     font-size 14px;
