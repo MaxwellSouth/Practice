@@ -17,6 +17,7 @@ body
 
 .Content
 {
+    background-color: rgb(24, 155, 204);
     color: rgb(200, 0, 0); 
     align-items: center;
     flex-direction: column;
