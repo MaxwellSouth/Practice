@@ -47,6 +47,16 @@ body
     font-size: 14px;
 }
 
+.middle
+{
+    flex-grow:"2"
+}
+
+.sides
+{
+    flex-grow:"1"
+}
+
 .Chapters
 {
     background-color:brown;
