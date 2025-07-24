@@ -12,13 +12,7 @@ body
     align-items: center;
     align-content: center;
 }
-.centered > div
-{
-    display: felx;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
+
 .Headline
 {
     display: flex;
@@ -50,7 +44,7 @@ body
     background-color: blue;
     color:black;
     margin: 10px;
-    font-size 14px;
+    font-size: 14px;
 }
 
 .Footer
