@@ -37,7 +37,6 @@ body
     justify-content: space-between;
     flex-direction: row;
     height: auto;
-    width: fit-content;
 }
 
 .Main > div
@@ -46,6 +45,21 @@ body
     color:black;
     margin: 10px;
     font-size: 14px;
+}
+
+.Chapters
+{
+    background-color:brown;
+    display: flex;
+    flex-direction: column;
+}
+
+.Chapters > div
+{
+    background-color: antiquewhite;
+    color: black;
+    font-size: 14px;
+    margin: 10px;
 }
 
 .Footer
